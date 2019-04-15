@@ -1,0 +1,42 @@
+*** Make sure to path to the right directory and have .mat files before running the .m files  ***
+*** I will include them in this package as long as our capacity limit in uploading allows ***
+%-- Afshin Shaygani--%
+
+giveoutsidevalues.m
+This file generates temperature outside the domain to investigate extrapolating capability.
+(The file saves the movie as it generates the data!)
+
+
+generateMovie.m
+This file generates temperatures and saves the movie as it generates the data!
+
+
+trainsteady.m
+(for steady case)
+Casting the data in to be fed into nntool of MATLAB.
+Also generates Train-Validation-Test sets and plots the results. 
+
+trainUNsteady.m
+(for unsteady case)
+Casting the data in to be fed into nntool of MATLAB.
+Also generates Train-Validation-Test sets and plots the results. (Many!)
+
+
+square.m
+Auto-generated mFile from PDEtool in case you cannot run the given data (.mat)
+
+
+PCA.m
+This file studies singular values and plots them to show data redundancy!
+ 
+
+myNeuralNetworkFunction1.m
+myNeuralNetworkFunction2.m
+myNeuralNetworkFunction3.m
+myNeuralNetworkFunction4.m
+Some of my models: Generated ANNs. to run some of the codes and do plots you need them!
+
+
+
+plotsquare.m
+This file generates the plots related to the total data for training. 
